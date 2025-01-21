@@ -1,0 +1,71 @@
+.del_up{
+    display: flex;
+    gap: 5px;
+    font-weight: 500;
+}
+.update{
+    color: white;
+    background: rgb(179, 167, 7);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.container{
+    height: 70vh;
+    overflow-y: scroll;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border-bottom: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+}
+.delete{
+    color: white;
+    background: red;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#showAllExpenses {
+    /* margin-right: 10px; */
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    /* border: none;
+    cursor: pointer; */
+    /* border-radius: 5px; */
+}
+#showAllExpenses:hover {
+    background-color: #0056b3;
+}
+#addExpense{
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: #28a745;
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+#addExpense:hover {
+    background-color: #1a722e; /* Darker blue on hover */
+}

@@ -1,0 +1,71 @@
+/* AddExpenseForm.css */
+.addExpense{
+    text-align: center;
+    font-size: 20px;
+    color: #384e66;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-decoration-line: underline;
+}
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto; /* Centered in the viewport */
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select, input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    select, input, textarea {
+        padding: 8px;
+    }
+}
